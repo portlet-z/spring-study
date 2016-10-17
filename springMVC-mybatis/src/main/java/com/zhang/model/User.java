@@ -8,8 +8,8 @@ public class User {
     private Integer id;
     private String name;
     private Integer age;
-    private String gender;
-    private String remark;
+    private Integer gender;
+//    private String remark;
 
     public Integer getId() {
         return id;
@@ -35,19 +35,19 @@ public class User {
         this.age = age;
     }
 
-    public String getGender() {
+    public Integer getGender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void setGender(Integer gender) {
         this.gender = gender;
     }
 
-    public String getRemark() {
-        return remark;
-    }
+//    public String getRemark() {
+//        return remark;
+//    }
 
-    public void setRemark(String remark) {
-        this.remark = remark;
-    }
+//    public void setRemark(String remark) {
+//        this.remark = remark;
+//    }
 }

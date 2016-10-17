@@ -5,8 +5,8 @@
 <mapper namespace="com.zhang.dao.UserDao">
 
     <insert id="insertUser" parameterType="User" keyProperty="id">
-        insert into user(name,age,gender,remark)
-        values  (#{name},#{age},#{gender},#{remark})
+        insert into user(name,age,gender)
+        values  (#{name},#{age},#{gender})
     </insert>
 
 </mapper>

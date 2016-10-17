@@ -26,9 +26,9 @@ public class UserTest {
     public void addUser() {
         User user = new User();
         user.setAge(22);
-        user.setGender("男");
+        user.setGender(0);
         user.setName("张三");
-        user.setRemark("学生");
+//        user.setRemark("学生");
         System.out.println(userService.insertUser(user));
     }
 }

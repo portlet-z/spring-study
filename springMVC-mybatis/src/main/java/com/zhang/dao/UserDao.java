@@ -12,5 +12,5 @@ public interface UserDao {
      * @param user
      * @return
      */
-    public int insertUser(User user);
+    int insertUser(User user);
 }
